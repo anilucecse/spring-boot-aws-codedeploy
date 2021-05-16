@@ -4,6 +4,7 @@ os: linux
 files:
   - source: target/aws-code-pipeline.jar
     destination: /home/ec2-user/server
+    overwrite: true
 
 permissions:
   - object: /
