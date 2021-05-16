@@ -18,3 +18,6 @@ artifacts:
   files:
     - target/aws-code-pipeline.jar
     - appspec.yml
+    - script/server_start.sh
+    - script/server_stop.sh
+    - script/server_validate.sh
