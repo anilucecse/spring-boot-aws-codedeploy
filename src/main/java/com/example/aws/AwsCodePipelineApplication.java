@@ -13,7 +13,7 @@ public class AwsCodePipelineApplication {
 		SpringApplication.run(AwsCodePipelineApplication.class, args);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("/message")
 	public String getHeartBeatMessage() {
 		return "Spring Boot Application is up in AWS Service !!" ;
 	}
