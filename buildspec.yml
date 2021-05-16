@@ -17,3 +17,4 @@ phases:
 artifacts:
   files:
     - target/aws-code-pipeline.jar
+    - appspec.yml
