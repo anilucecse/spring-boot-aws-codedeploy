@@ -15,7 +15,7 @@ public class AwsCodePipelineApplication {
 	
 	@GetMapping("/")
 	public String getHeartBeatMessage() {
-		return "Spring Boot Application is up in AWS Service" ;
+		return "Spring Boot Application is up in AWS Service !!" ;
 	}
 
 }
